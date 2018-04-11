@@ -77,9 +77,9 @@
 ========================================== */
 
 nav {
-  background-color: #444;
+  background-color: #000;
   position: fixed;
-  z-index: 1031;
+  z-index: 10;
   top: 0;
   right: 0;
   height: 100%;
