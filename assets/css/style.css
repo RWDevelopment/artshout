@@ -183,7 +183,7 @@ nav ul.main li a {
 
 nav ul.main li a span { color: #b7ac7f; }
 
-nav ul.main li a:hover { color: #b7ac7f; }
+nav ul.main li a:hover { color: #ccc; }
 
 nav .about {
   margin-top: 40px;
