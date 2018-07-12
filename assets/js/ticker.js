@@ -1,9 +1,8 @@
 $( document ).ready(function() {
-
-$('#demo_1').t({
-   blink:300,
-   caret:true,
-   pause_on_click:true
+   
+var typed = new Typed('#demo_1', {
+  strings: ["First sentence.", "Second sentence."],
+  typeSpeed: 30
 });
 
 });
