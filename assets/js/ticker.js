@@ -1,8 +1,9 @@
-$(function(){
-	$(".typed").typed({
-		strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`'],
-                typeSpeed: 40,
-                backSpeed: 0,
-                loop: true
-	});
+$(document).ready(function() {
+    $("#typewriter").typewriter({
+        prefix : "Prefix : ",
+        text : ["Hey", "this", "is", "cool", "isn't it ?"],
+        typeDelay : 200,
+        waitingTime : 1000,
+        blinkSpeed : 1000
+    });
 });
