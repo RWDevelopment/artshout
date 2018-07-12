@@ -1,6 +1,6 @@
 $(function(){
 	$(".typed").typed({
-		strings: ["<h1>The Spanish Inquisition</h2>^1000\n", "<h2>is looking for</h2>^1000\n", "<h2>gifted & mentally ill</h2>"],
+		strings: ["The Spanish Inquisition^1000\n", "is looking for^1000\n", "gifted & mentally ill"],
 		// typing speed
 		typeSpeed: 50,
 		// time before typing starts
