@@ -6,9 +6,7 @@ $(function(){
 		// time before typing starts
 		startDelay: 1200,
 		// show cursor
-		showCursor: true,
-		// character for cursor
-		cursorChar: "|",
+		showCursor: false,
 		// attribute to type (null == text)
 		contentType: 'html',
 	});
