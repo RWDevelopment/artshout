@@ -1,13 +1,8 @@
 $(function(){
 	$(".typed").typed({
-		strings: ["The Spanish Inquisition^1000\n", "is looking for^1000\n", "gifted & mentally ill"],
-		// typing speed
-		typeSpeed: 50,
-		// time before typing starts
-		startDelay: 1200,
-		// show cursor
-		showCursor: false,
-		// attribute to type (null == text)
-		contentType: 'html',
+		strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`'],
+                typeSpeed: 40,
+                backSpeed: 0,
+                loop: true
 	});
 });
