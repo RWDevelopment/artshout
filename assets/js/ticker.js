@@ -16,7 +16,7 @@ $(function(){
 		// false = infinite
 		loopCount: 5,
 		// show cursor
-		showCursor: false,
+		showCursor: true,
 		// character for cursor
 		cursorChar: "|",
 		// attribute to type (null == text)
