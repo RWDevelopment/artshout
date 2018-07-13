@@ -1,4 +1,4 @@
-$(function(){
+$( document ).ready(function() {
 $("#typewriter").typed({
 
   strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
