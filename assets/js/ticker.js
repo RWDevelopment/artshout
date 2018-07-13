@@ -3,5 +3,6 @@ var typed = new Typed('.typewriter', {
     typeSpeed: 40,
     backSpeed: 0,
     cursorChar: '_',
+    contentType: 'html',
     loop: true
 });
