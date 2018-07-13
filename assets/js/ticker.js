@@ -1,3 +1,4 @@
+$(function(){
 $("#typewriter").typed({
 
   strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
@@ -41,4 +42,5 @@ $("#typewriter").typed({
   // either html or text
   contentType: 'html'
   
+});
 });
