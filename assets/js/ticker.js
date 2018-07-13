@@ -5,5 +5,5 @@ var typed = new Typed('.typewriter', {
     cursorChar: ' &num;',
     contentType: 'html',
     startDelay: 2000,
-    loop: true
+    loop: false
 });
