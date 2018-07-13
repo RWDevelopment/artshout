@@ -1,46 +1,4 @@
-$( document ).ready(function() {
-$("#typewriter").typed({
-
-  strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
-  stringsElement: null,
-
-  // typing speed
-  typeSpeed: 0,
-
-  // time before typing starts
-  startDelay: 0,
-
-  // backspacing speed
-  backSpeed: 0,
-
-  // shuffle the strings
-  shuffle: false,
-
-  // time before backspacing
-  backDelay: 500,
-
-  // Fade out instead of backspace
-  fadeOut: false,
-  fadeOutClass: 'typed-fade-out',
-  fadeOutDelay: 500, // milliseconds
-
-  // loop
-  loop: false,
-
-  // false = infinite
-  loopCount: false,
-
-  // show cursor
-  showCursor: true,
-
-  // character for cursor
-  cursorChar: "|",
-
-  // attribute to type (null == text)
-  attr: null,
-
-  // either html or text
-  contentType: 'html'
-  
-});
+var typed = new Typed('.typewriter', {
+  strings: ["First sentence.", "Second sentence."],
+  typeSpeed: 30
 });
