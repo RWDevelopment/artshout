@@ -4,6 +4,6 @@ var typed = new Typed('.typewriter', {
     backSpeed: 0,
     cursorChar: ' &num;',
     contentType: 'html',
-    startDelay: 400,
+    startDelay: 2000,
     loop: true
 });
